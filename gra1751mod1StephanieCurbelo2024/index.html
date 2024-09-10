@@ -10,7 +10,9 @@ body {
     padding-left: 12px;
     padding-bottom: 12px;
     margin: 0;
-    background-color: #ff0099;
+    background-color: rgba(255,0,153,0.13);
+    background-image: url(images/pinkfrostingbackground.jpg);
+    background-size: cover;
 }
 header {
     height: 298px;
@@ -25,10 +27,27 @@ wrapper {
     width: 960px;
     display: block;
     height: 500px;
+    background-color: rgba(255,255,255,0.80);
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
 }
 </style></head>
 <body>
-<header> <img src="images/pinkpastrylogo.png" alt="" width="658" height="296" class="logo"></header>
-<wrapper></wrapper>
+<header><img src="images/pinkpastrylogo.png" alt="" width="658" height="296" class="logo"></header>
+<wrapper>
+  <nav>
+    <ul>
+      <li>Home</li>
+		<li>Menu</li>
+		<li>Abou Us</li>
+		<li>Contact</li>
+    </ul>
+  </nav>
+</wrapper>
 </body>
 </html>
