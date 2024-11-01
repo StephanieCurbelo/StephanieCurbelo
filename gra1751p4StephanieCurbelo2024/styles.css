@@ -1,0 +1,444 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    height: 98px;
+    background-color: rgba(0,0,0,1.00);
+}
+
+footer {
+    padding: 16px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,1.00);
+    color: #fff;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    margin-top: -18px;
+}
+
+nav {
+    background-color: rgba(0,0,0,1.00);
+
+}
+#home {
+    background-image: url(Images/HOME.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    background-attachment: scroll;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 124px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li {
+    display: inline-block;
+    padding: 16px 24px 16px 44px;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+}
+ul a li:hover {
+    background-color: #000000;
+    color: rgba(211,204,225,1.00);
+    text-decoration: overline;
+}
+header h1 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Mythical Romance";
+    margin: 0;
+    font-size: 50pt;
+    padding-left: 638px;
+    padding-top: 30px;
+}
+#szacrocs1 {
+    position: absolute;
+    top: 233px;
+    padding-left: 106px;
+    padding-top: 37px;
+}
+#szacrocs2 {
+    position: relative;
+    padding-left: 465px;
+    padding-top: 79px;
+    background-position: 0% 0%;
+    top: -169px;
+}
+h2 {
+    font-family: "Mythical Romance";
+    position: absolute;
+    top: 223px;
+    color: rgba(255,255,255,1.00);
+    font-size: 56pt;
+    left: 873px;
+    display: inline-table;
+}
+h3 {
+    color: rgba(255,255,255,1.00);
+    padding-left: 121px;
+    position: absolute;
+    top: 359px;
+    font-size: 48pt;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    text-align: left;
+    display: inline-table;
+    margin-top: 0px;
+    text-shadow: 0px 0px 9px rgba(45,21,200,1.00);
+    font-weight: bold;
+}
+#newssection p {
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    color: rgba(255,255,255,1.00);
+    position: absolute;
+    margin-top: 167px;
+    margin-left: 148px;
+    font-style: italic;
+    display: inline-table;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+
+
+#newssection {
+    background-color: rgba(0,0,0,1.00);
+    background-image: url(Images/bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding-top: 146px;
+}
+#store {
+    background-image: url(Images/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    color: rgba(255,255,255,1);
+}
+#album1storeimage {
+    padding-bottom: 0px;
+    margin-bottom: 178px;
+    margin-left: 228px;
+
+}
+#albumimgstore {
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+#digitext {
+    padding-bottom: 0px;
+    position: absolute;
+    top: 627px;
+    left: 311px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 12px rgba(63,7,166,1.00);
+
+
+
+
+}
+#vinyltext {
+    position: absolute;
+    display: inline-table;
+    top: 627px;
+    left: 785px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 12px rgba(63,7,166,1.00);
+}
+#concerts {
+    background-image: url(Images/tours.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 66px 66px 91px 108px;
+    background-attachment: fixed;
+
+}
+#concerts #headertours {
+    color: rgba(255,255,255,1.00);
+    font-family: "Mythical Romance";
+    font-size: 41pt;
+    position: absolute;
+    top: 110px;
+    padding-left: 459px;
+    padding-top: 3px;
+    text-shadow: 0px 0px 9px rgba(63,7,166,1.00);
+    margin-top: 75px;
+}
+
+#concertsection table tbody {
+    text-align: left;
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 23pt;
+    position: relative;
+    float: right;
+    padding-top: 62px;
+    left: 101px;
+}
+#mailingsmain {
+    background-image: url(Images/MAILINGS.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 0px;
+    background-position: center 0%;
+    background-size: cover;
+}
+#mailingoffer {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    text-decoration: none;
+    margin-top: 0px;
+    padding-left: 179px;
+    padding-top: 359px;
+    font-size: 43pt;
+}
+#emailhere {
+    padding-top: 0px;
+    position: absolute;
+    top: 155px;
+    left: 200px;
+
+}
+#photosmain {
+    background-image: url(Images/bg.png);
+    background-attachment: fixed;
+
+}
+#photos {
+    background-image: url(url);
+
+}
+#szaphoto1 {
+    padding-top: 0px;
+    position: relative;
+    bottom: -230px;
+    padding-left: 39px;
+
+}
+#headerphoto {
+    padding-left: 567px;
+    padding-top: 334px;
+    font-family: "Mythical Romance";
+    text-decoration: none;
+    font-size: 40pt;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 0px 0px 9px rgba(63,7,166,1.00);
+
+
+}
+
+#szaphoto2 {
+    position: relative;
+    left: -112px;
+    top: 18px;
+    border-bottom-right-radius: 77px;
+    border-top-right-radius: 77px;
+    border-top-left-radius: 77px;
+}
+#szaphoto3 {
+    position: relative;
+    left: 932px;
+    bottom: 64px;
+}
+#merchmain {
+    background-image: url(Images/bg.png);
+    background-attachment: fixed;
+}
+#merchsection {
+}
+#merchitem1 {
+    padding-left: 62px;
+    padding-top: 0px;
+    top: -20px;
+    position: relative;
+    left: 408px;
+}
+#merchitem2 {
+    padding-left: 480px;
+    padding-top: 0px;
+}
+#merchitem3 {
+    padding-left: 470px;
+    padding-top: 85px;
+    margin-top: -83px;
+}
+#item1name {
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    color: rgba(255,255,255,1.00);
+    margin-left: 634px;
+    margin-top: -85px;
+    text-shadow: 0px 0px 18px rgba(9,64,239,1.00);
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+#item1name2 {
+    margin-left: 623px;
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    margin-top: -89px;
+    font-weight: bolder;
+    font-size: 20pt;
+    text-shadow: 0px 0px 18px rgba(9,64,239,1.00);
+}
+#item1name3 {
+    margin-left: 624px;
+    margin-top: -39px;
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    text-shadow: 0px 0px 18px rgba(9,64,239,1.00);
+    font-size: 20pt;
+    font-weight: bolder;
+}
+#item1name4 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    margin-left: 627px;
+    margin-top: -105px;
+    padding-top: 13px;
+    padding-bottom: 65px;
+    text-shadow: 0px 0px 18px rgba(9,64,239,1.00);
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+
+
+
+#merchitem4 {
+    padding-left: 470px;
+    padding-top: 2px;
+}
+#blogsmain {
+    background-image: url(Images/BLOGS.png);
+}
+#blog2 {
+    color: rgba(255,255,255,1.00);
+    font-size: 34pt;
+    text-decoration: underline;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    margin-left: 762px;
+    margin-top: 72px;
+    text-shadow: 0px 0px 9px 000;
+    font-weight: bold;
+}
+#blog1 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 34pt;
+    text-decoration: underline;
+    margin-left: 760px;
+    padding-top: 90px;
+    text-shadow: 0px 0px 9px 000;
+    font-weight: bolder;
+}
+#blog3 {
+    text-decoration: underline;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    color: rgba(255,255,255,1.00);
+    font-size: 36pt;
+    margin-top: 84px;
+    margin-left: 760px;
+    padding-bottom: 244px;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px 000;
+}
+#blog4 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 36pt;
+    text-decoration: underline;
+    margin-left: 760px;
+    margin-top: -161px;
+    padding-bottom: 113px;
+    font-weight: bold;
+}
+
+
+
+
+
+#blogtitle1 {
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,1.00);
+    font-size: 26pt;
+}
+#privacymain {
+    background-image: url(Images/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(14,14,14,1.00);
+}
+#policytext {
+    color: rgba(255,255,255,1.00);
+    font-size: 15pt;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    text-align: justify;
+    padding: 138px 208px 208px;
+    text-shadow: 0px 0px 33px rgba(63,7,166,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen{
+}
+#sub {
+    padding-bottom: 0px;
+    position: relative;
+    left: 345px;
+    padding-top: 63px;
+    margin-top: -186px;
+    padding-left: 0px;
+    margin-left: -109px;
+    top: 35px;
+}
+#merchsection h3 {
+
+}
+
+#videosmain {
+    background-image: url(Images/bg.png);
+    padding-top: 69px;
+    padding-left: 440px;
+    padding-bottom: 86px;
+}
