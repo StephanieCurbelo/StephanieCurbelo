@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to SoFlo Travel &amp; Tours | Stephanie Curbelo, 2024</title>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+    background-image: url(images/bg2.png);
+}
+wrapper {
+    width: 1366px;
+    margin: 32 px auto;
+    display: block;
+    background-color: #000000;
+    border-radius: 16 px;
+    background-image: url(url);
+}
+header {
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+}
+.footer {
+    background-color: #000;
+    color: rgba(255,255,255,1.00);
+}
+.logo {
+    width: auto;
+    height: 255px;
+    margin-top: -79px;
+    margin-bottom: -94px;
+    margin-left: 11px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="images/logosoflo.png" alt="" width="250" height="200" class="logo"/></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Tab 1</a></li>
+      <li><a href="#tabs-2">Tab 2</a></li>
+      <li><a href="#tabs-3">Tab 3</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Content 1</p>
+    </div>
+    <div id="tabs-2">
+      <p>Content 2</p>
+    </div>
+    <div id="tabs-3">
+      <p>Content 3</p>
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
