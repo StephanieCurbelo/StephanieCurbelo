@@ -9,29 +9,382 @@ body {
     margin: 0;
     background-color: #ccc;
     background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 wrapper {
     width: 1366px;
-    margin: 32 px auto;
+    margin-right: px;
     display: block;
-    background-color: #000000;
     border-radius: 16 px;
     background-image: url(url);
+    border: none;
+    background-color: rgba(0,0,0,0.50);
+    margin-top: 42px;
+}
+select {
+    padding-left: 0px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 7px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+h2 {
+    color: rgba(255,255,255,1.00);
+    font-size: 14pt;
+    margin-left: -93px;
+    padding-bottom: 0px;
+    margin-bottom: -34px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    position: relative;
+    top: 4px;
+    background-color: rgba(0,0,0,1.00);
+    border-radius: 8px;
+    width: 91px;
+    text-align: center;
+    font-weight: lighter;
 }
 header {
     background-color: rgba(0,0,0,1.00);
     color: rgba(255,255,255,1.00);
+    padding-bottom: 18px;
 }
-.footer {
-    background-color: #000;
-    color: rgba(255,255,255,1.00);
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 ul {
+    background-image: none;
+    border-style: none;
+    background-color: transparent;
+    margin-bottom: 19px;
 }
 .logo {
     width: auto;
     height: 255px;
-    margin-top: -79px;
-    margin-bottom: -94px;
+    margin-top: -65px;
+    margin-bottom: -116px;
+    margin-left: 26px;
+}
+#Tabs1 li {
+    background-color: rgba(0,0,0,0.97);
+    background-image: none;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    margin-left: 9px;
+    margin-top: 7px;
+    padding-left: 0px;
+    position: relative;
+    left: 375px;
+}
+#Tabs1 li:hover {
+    background-color: rgba(41,53,183,0.83);
+    text-decoration: none;
+}
+#Tabs1 a {
+    color: rgba(255,255,255,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input {
+    margin: 10px;
+    padding: 0px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    border: thin solid rgba(255,255,255,1.00);
+    border-radius: 8px;
+    display: inline-block;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 103px;
+    margin-right: -4px;
+    margin-top: -34px;
+}
+#checkout {
+    margin-left: -89px;
+    position: relative;
+    top: 4px;
+    right: 0px;
+    font-size: 14pt;
+    padding-left: 2px;
+    font-variant: normal;
+    font-weight: lighter;
+    padding-top: 1px;
+    padding-right: 3px;
+}
+#flightfrom {
+    width: 25%;
+}
+#flightto {
+    width: 25%;
+}
+#guestsfly {
+    width: 15%;
+    position: relative;
+    right: -850px;
+    top: -43px;
+}
+#flightdate {
+    width: 10%;
+}
+#date {
+    margin-left: 5px;
+    top: 3px;
+    position: relative;
+}
+.submit {
+    margin: 0 auto 36px;
+    width: 200px;
+    top: 42px;
+    position: relative;
+    left: 560px;
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: bold;
+}
+.submitflight {
+    width: 200px;
+    background-color: rgba(0,0,0,1.00);
+    position: relative;
+    left: 847px;
+    top: -44px;
+    margin-bottom: 56px;
+    color: rgba(255,255,255,1.00);
+    font-weight: lighter;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+}
+h3 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    position: relative;
+    top: -92px;
+    left: 1170px;
+    font-size: 20pt;
+}
+#pickupdate {
+    position: relative;
+    width: 27%;
+    top: -20px;
+    left: 54px;
+}
+#dropoffdate {
+    position: relative;
+    width: 27%;
+    top: 13px;
+    left: -602px;
+}
+#rentaltime {
+    position: relative;
+    width: 27%;
+    padding-bottom: 0px;
+    top: -79px;
+    left: 54px;
+}
+#pickuptext {
+    position: relative;
+    color: rgba(255,255,255,1.00);
+    padding: 4px;
+    top: 38px;
+    left: -73px;
+    background-color: rgba(0,0,0,1.00);
+    border-radius: 8px;
+    width: 99px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: lighter;
+}
+#pickuploc {
+    border: thin solid rgba(255,255,255,1.00);
+    border-radius: 8px;
+    width: 224%;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline;
+    position: relative;
+    left: -68px;
+    margin: 0 auto;
+    top: 39px;
+}
+#dropofftext {
+    color: rgba(255,255,255,1.00);
+    position: relative;
+    left: -728px;
+    top: 72px;
+    background-color: rgba(0,0,0,1.00);
+    width: 114px;
+    border-radius: 8px;
+    padding: 4px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: lighter;
+}
+#timetext {
+    position: relative;
+    color: rgba(255,255,255,1.00);
+    right: 73px;
+    background-color: rgba(0,0,0,1.00);
+    width: 43px;
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: lighter;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    top: -21px;
+}
+#tabs-5 section li {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: lighter;
+    font-size: 11pt;
+    display: inline;
+    position: relative;
+    top: -16px;
+    left: 393px;
+    padding: 8px;
+}
+h4 {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 17px;
+    position: relative;
+    margin-left: 9px;
+    top: 31px;
+    left: 246px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,1.00);
+    width: 19%;
+    padding-left: 26px;
+}
+#tabs-5 section input {
+    top: 36px;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: relative;
+    left: 255px;
+}
+#Tabs1 #tabs-4 img {
+    padding-top: 15px;
+}
+ol {
+    color: rgba(255,255,255,1.00);
+    list-style: none;
+    background-color: rgba(0,0,0,1.00);
+    position: relative;
+    top: -256px;
+    right: -510px;
+    width: 102px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    border-radius: 8px;
+    font-size: 14pt;
+}
+ol:hover {
+    background-color: rgba(194,187,236,1.00);
+}
+p {
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    position: relative;
+    top: -215px;
+    left: auto;
+}
+#Tabs1 #tabs-4 input {
+    width: 100%;
+    position: relative;
+    top: -34px;
+    margin-top: -1px;
+}
+h6 {
+    color: rgba(255,255,255,1.00);
+    font-style: normal;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: normal;
+    font-size: 14pt;
+    margin-top: 25px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,1.00);
+    width: 100%;
     margin-left: 11px;
+}
+#eventtime {
+    position: relative;
+    left: -104px;
+    top: -393px;
+}
+#eventtext {
+    position: relative;
+    left: -94px;
+    top: -19px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,1.00);
+}
+#tabs-4 section li {
+    color: rgba(255,255,255,1.00);
+    list-style: none;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    width: 34%;
+    position: relative;
+    left: 489px;
+    top: -74px;
+    border-radius: 8px;
+    display: inline;
+}
+h7 {
+    position: relative;
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 14pt;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,1.00);
+    top: -96px;
+    left: 469px;
+    padding: 3px 24px 3px 20px;
+}
+#tabs-4 section select {
+    position: relative;
+    top: -102px;
+    left: 459px;
+}
+#tabs-3 section .submit {
+    margin-left: -1287px;
+    color: rgba(255,252,252,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+}
+#tabs-4 section .eventsubmit {
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-weight: bold;
+    position: relative;
+    left: -103px;
+}
+h9 {
+    position: relative;
+    color: rgba(255,255,255,1.00);
+    left: 1023px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    top: -70px;
+    font-size: 31px;
+}
+#footer {
+    color: rgba(255,255,255,1.00);
+    margin: 0 auto;
+    padding: 8px;
+    font-family: "Sulphur Point", "Sulphur Point Light";
+    font-size: 12px;
 }
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -42,25 +395,90 @@ header {
 </head>
 
 <body>
-<header><img src="images/logosoflo.png" alt="" width="250" height="200" class="logo"/></header>
+<header>
+  <img src="images/soflologo.png" alt="" width="250" height="200" class="logo"/>
+</header><h9>Call us! 305-555-5555</h9>
+	
 <wrapper>
-  <div id="Tabs1">
+	<div id="Tabs1">
     <ul>
-      <li><a href="#tabs-1">Tab 1</a></li>
-      <li><a href="#tabs-2">Tab 2</a></li>
-      <li><a href="#tabs-3">Tab 3</a></li>
-    </ul>
-    <div id="tabs-1">
-      <p>Content 1</p>
+      <li><a href="#tabs-1"><img src="images/hotelicon.png" alt="" width="60" height="60"><br>
+      Hotels</a></li>
+      <li><a href="#tabs-2"><img src="images/planeicon.png" alt="" width="60" height="60"><br>
+      Flights</a></li>
+      <li><a href="#tabs-3"><img src="images/caricon.png" alt="" width="60" height="60"><br>
+      Rentals</a></li>
+      <li><a href="#tabs-4"><img src="images/staricon.png" alt="" width="60" height="60"><br>
+      To Do</a></li>
+      <li><a href="#tabs-5"><img src="images/CruiseIcon.png" alt="" width="60" height="60"><br>
+      Cruises</a></li>
+</ul>
+<div id="tabs-1"><input type="text" id="goingtobox" placeholder="What city or address?">
+     <br>
+    
+<section>
+        <h2>Check In</h2>
+        <input type="date" id="date">
+  </section>
+            <section><br>
+<h2 id="checkout">Check Out</h2>
+  <input type="date" class="sectioninput">
+ </section>
+<select>
+  <option value="0">How many guests?</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  </select>
+	  <input type="submit" class="submit">
     </div>
+	
     <div id="tabs-2">
-      <p>Content 2</p>
-    </div>
+      <input id="flightfrom" placeholder="Where from?">
+      <input id="flightto" placeholder="Where to?">
+	<input type="date" id="flightdate"><br>
+	<select id="guestsfly">
+	  <option value="0">How many travelers?</option>
+	  <option value="1">1</option>
+	  <option value="2">2</option>
+	  <option value="3">3</option>
+	  <option value="4">4</option>
+	  <option value="5">5</option>
+	  <option value="6">6</option>
+	  </select>
+	  <input type="submit" class="submitflight">
+</div>
+	  
     <div id="tabs-3">
-      <p>Content 3</p>
+<section>
+  <input id="pickuploc" placeholder="Pick up location"><p id="pickuptext">
+    Pick up date</p><input type="date" id="pickupdate"></section><br>
+		<section><p id="timetext">Time</p><input type="time" id="rentaltime"></section>
+		<section><p id="dropofftext">Drop off date</p><input type="date" id="dropoffdate"><br><input type="submit" class="submit"></section><br>
     </div>
+	  
+<div id="tabs-4"><h6>Search Events near by</h6>
+	<input type="date">
+<br>
+	<section><p id="eventtext">Time</p><input type="time" id="eventtime"><h7>Select a Category</h7><select>
+	  <option value="0">Events</option>
+	  <option value="Attractions">Attractions</option>
+	  <option value="Dining">Dining</option>
+	  <option value="All Upcoming">All Upcoming</option>
+	</select><br></section>
+
+
+</div>
+	  
+    <div id="tabs-5"> 
+		<section><input type="search" placeholder="Search  your destination "><br><h4>Search By</h4><li>Departure ports</li><li>Cruise length</li><li>Cruise line</li><br>
+</section>
   </div>
 </wrapper>
+	<footer id="footer">© 2024, Stephanie Curbelo. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
 <script type="text/javascript">
 $(function() {
 	$( "#Tabs1" ).tabs(); 
